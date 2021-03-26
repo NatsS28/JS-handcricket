@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    border: 0;
+}
+p{
+    color: black;
+}
+
+#container{
+    width: 400px;
+	height: 500px;
+	background-color: #555A60;
+	margin: 0 auto;
+    color: #F2C080;
+	top: 80px;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.btns{
+    width: 600px;
+    margin-bottom: 100px;
+    display: table;
+    box-sizing: border-box;
+}
+
+.row{
+    margin: 20px 0;
+    padding: 30px;
+   
+}
+
+.column{
+    background-color: #F2C080;
+    display: table-cell;
+    padding: 10px;
+    width: 33.333%;
+    text-align: center;
+    color: #555A60;
+    vertical-align: middle;
+    border-right: 10px solid #555A60;
+    border-left: 10px solid #555A60;
+    border-bottom: 10px solid #555A60;
+}
+
+
+.button:hover{
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.firstrow:nth-child(1) .column:nth-child(1)
+{
+    background: #ff4350;
+
+    }
+
+
+.firstrow:nth-child(1) .column:nth-child(2)
+{
+    background: #cf6768;
+}
+
+.firstrow:nth-child(1) .column:nth-child(3)
+{
+    background: #ff4350;
+}
+
+.secrow:nth-child(2) .column:nth-child(1)
+{
+    background: #cf6768;
+}
+
+.secrow:nth-child(2) .column:nth-child(2)
+{
+    background: #ff4350;
+}
+
+.secrow:nth-child(2) .column:nth-child(3)
+{
+    background: #cf6768;
+}
+
+.btns{
+    margin-left: 110px;
+    
+}
+
+.scorecard{
+    height: 100px;
+    width: 100%;
+    background-color: #fff;
+}
+
+/*buttons*/
+
+
+
+.button1 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #F2C080;
+    border: none;
+    color: #000000;
+    font-weight: 600;
+    text-align: center;
+    font-size: 13px;
+   margin: 50px 15px;
+    width: 100px;
+    height: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    
+  }
+  
+  .button1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button1:hover span {
+    padding-right: 25px;
+  }
+  
+  .button1:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+  .options{
+    display: flex;
+   
+}
+
+.scorecard p{
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 800;
+    font-size: 30px;
+}
+
